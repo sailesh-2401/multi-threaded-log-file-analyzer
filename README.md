@@ -12,7 +12,7 @@ A lightweight Java console application designed to analyze large log files effic
 - `LogFileAnalyzer`: The main source code.
 - `logs.txt`: The input file containing timestamped log entries.
 
-## 🛠️ How to Run
+##  How to Run
 1. Ensure you have **Java JDK 8+** installed.
 2. Create a file named `logs.txt` in the project root directory.
 3. Add your log data in the following format:
