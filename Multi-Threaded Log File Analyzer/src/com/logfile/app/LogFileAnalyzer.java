@@ -11,6 +11,7 @@ public class LogFileAnalyzer {
     static int warningCount = 0;
 
     public static void main(String[] args) throws Exception {
+        System.out.println("FULL PATH: " + new java.io.File("logs.txt").getAbsolutePath());
         
         // 1. Created a "Worker" thread for INFO
         Thread infoThread = new Thread(() -> {
